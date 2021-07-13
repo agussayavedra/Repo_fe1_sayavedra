@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman';
+}
+header {
+    background-color: #E5E5E5;
+    text-align: center;
+    padding-top: 21px;
+}
+header h1 {
+    letter-spacing: 10px;
+    color: #005677;
+    background-color: #C4C4C4;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 13px;
+}
+
+.datos h2 {
+    font-size: 20px;
+    letter-spacing: 8px;
+    background-color: #C4C4C4;
+    color: #005677;
+    margin-top: 162px;
+    margin-bottom: 18px;
+    margin-right: 186px;
+    margin-left: 213px;
+    padding: 7px;
+}
+
+.datos span {
+    font-weight: bold;
+}
+
+.datos li {
+    margin-bottom: 10px;
+    margin-left: 262px;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 12.7px;
+}
+
+.formacion h2 {
+    font-size: 20px;
+    letter-spacing: 8px;
+    background-color: #C4C4C4;
+    color: #005677;
+    margin-top: 30px;
+    margin-bottom: 19px;
+    margin-right: 186px;
+    margin-left: 213px;
+    padding: 7px;
+}
+
+.formacion dt {
+    font-weight: bold;
+}
+
+.formacion dl {
+    margin-bottom: 10px;
+    margin-left: 262px;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 16.68px;
+}
+
+.experiencia h2 {
+    font-size: 20px;
+    letter-spacing: 8px;
+    background-color: #C4C4C4;
+    color: #005677;
+    margin-top: 30px;
+    margin-bottom: 19px;
+    margin-right: 186px;
+    margin-left: 213px;
+    padding: 7px;
+}
+
+.experiencia dl {
+    margin-bottom: 10px;
+    margin-left: 262px;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 16.68px;
+}
+
+.experiencia dt {
+    font-weight: bold;
+}
+
+footer p{
+    margin-top: 163px;
+    background-color: #005677;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 11px;
+}
