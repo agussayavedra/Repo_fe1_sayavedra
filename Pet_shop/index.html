@@ -5,37 +5,46 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Pet Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header>
+    <section class="banner">
     <p>Grandes ofertas en comederos</p>
     <ul>
-      Menu Regional
       <li>Español</li>
       <li>$ARG</li>
     </ul>
+  </section>
+  <section class="menu">
     <img src="./img/Logo.svg" alt="logo" />
-    <ul>
-      Menu Principal
-      <li>Categorias</li>
-      <li>Pets</li>
-      <li>Nosotros</li>
-      <li>Contactanos</li>
+    <ul >
+      <li><i class="fas fa-paw"></i> Categorias</li>
+      <li><i class="fas fa-paw"></i> Pets</li>
+      <li><i class="fas fa-paw"></i> Nosotros</li>
+      <li><i class="fas fa-paw"></i> Contactanos</li>
     </ul>
+  </section>
   </header>
   <main>
-    <section>
+    <section class="slide">
+      <p class="p1">¡Es un placer tenerte aquí!</p>
       <img src="./img/bowl.png" alt="bowl" />
-      <p>¡Es un placer tenerte aquí!</p>
-      <p>¡Comederos en descuento!</p>
-      <p>COMEDEROS</p>
+      <p class="p2">¡Comederos en descuento!</p>
+      <p class="p3">COMEDEROS</p>
     </section>
-    <section>
-      <img src="./img/pawprint_1.svg" alt="patita" />
-      <p><strong>Productos Destacados</strong></p>
-      <p>Comederos - Accesorios - Comida</p>
+    <section class="medio">
+    <img src="./img/pawprint_1.svg" alt="patita" />
+    <p class="prod">Productos Destacados</p>
+    <p>Comederos - Accesorios - Comida</p>
+  </section>
+    <section class="productos">
       <img src="./img/churrasquito.svg" alt="churrasquitos">
       <p>Juguete churrasquito</p>
       <p>$150</p>
@@ -48,8 +57,16 @@
     </section>
   </main>
   <footer>
-    <p>Todos los derechos reservados Front End</p>
+    <section class="redes">
+      <p><img src="./img/mapa.png" alt=""> Localidad
+        <span>Calle - provincia</span></p>
+      <p><img src="./img/tel.png" alt="">Teléfono
+        <span>Número de teléfono</span></p>
+      <p><img src="./img/correo.png" alt="">Correo
+        <span>Dirección de correo</span></p>
+        <img src="./img/logoclaro.png" alt="">
+    </section>
+    <p class="derechos">Todos los derechos reservados Front End</p>
   </footer>
 </body>
-
 </html>
