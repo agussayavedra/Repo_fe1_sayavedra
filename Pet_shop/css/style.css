@@ -23,15 +23,12 @@
 
 
 .slide{
-    display: block;
-    background-size: cover;
-    width: auto;
+    
     text-align: center;
 }
 
 .slide img {
     width: 100%;
-    position: relative;
     
 }
 .slide .p1 {
@@ -53,6 +50,7 @@
     font-size: 16px;
     background-color: #F0A83E;
     color: #FFF;;
+    font-weight: bold;
     position: relative;
     z-index: 10;
     padding: 15px;
